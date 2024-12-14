@@ -1,0 +1,11 @@
+package MethodChain;
+
+public class ChainDriver {
+	public static void main(String[] args) {
+		methodChaining c1 = new methodChaining();
+		c1.getage().getName().getsalary();
+		c1.getage().getsalary().getid();;
+		c1.getage().getsalary();
+		c1.getage().getName().getsalary().getid();
+	}
+}

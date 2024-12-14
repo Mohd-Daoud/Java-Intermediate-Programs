@@ -1,0 +1,7 @@
+package MethodChain;
+
+public class methodChaining {
+	public static void main(String[] args) {
+		System.out.println("Hello");
+	}
+}

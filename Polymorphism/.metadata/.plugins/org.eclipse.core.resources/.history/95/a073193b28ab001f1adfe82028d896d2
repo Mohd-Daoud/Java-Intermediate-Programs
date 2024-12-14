@@ -1,0 +1,18 @@
+package MethodOveriding;
+
+public class Drive extends electricCar{
+	public static void main(String[] args) {
+		System.out.println("=====Before Object=====");
+		Vehicle.start();
+		Car.start();
+//		electricCar();
+		System.out.println("=====After Object=====");
+		Vehicle v1 = new Car();
+		Vehicle v2 = new electricCar();
+		
+		v2.start();
+		v2.drive();
+		
+		
+	}
+}
